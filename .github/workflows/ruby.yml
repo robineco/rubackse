@@ -29,6 +29,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: folder
+      run: ll
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
