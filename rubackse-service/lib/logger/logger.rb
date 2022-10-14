@@ -4,6 +4,7 @@ class Logger
 
   include Severity
 
+  attr_reader :level
   LOG_LEVEL = %w(DEBUG INFO WARNING ERROR)
 
   def initialize(level: INFO, source_name: nil)
@@ -46,9 +47,9 @@ class Logger
 
 end
 
-log = Logger.new(level: Logger::DEBUG)
-
-log.debug("Hello world")
-log.info("THIS is INFO")
-log.warn("THIS is WARN")
-log.error("THIS is ERROR")
+# log = Logger.new(level: Logger::DEBUG)
+#
+# log.debug("Hello world")
+# log.info("THIS is INFO")
+# log.warn("THIS is WARN")
+# log.error("THIS is ERROR")
