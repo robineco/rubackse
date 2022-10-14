@@ -23,13 +23,13 @@ jobs:
     defaults:
       run:
         working-directory: ./rubackse-service
-    strategy:
-      matrix:
-        ruby-version: ['3.0']
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Ruby
-      run: bundle install
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+        working-directory: ./rubackse-service
     - name: Run tests
       run: bundle exec rspec
