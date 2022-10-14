@@ -1,5 +1,6 @@
 # ru(by)-back(up)-se(rvice)
-
+[![Ruby](https://github.com/robineco/rubackse/actions/workflows/ruby.yml/badge.svg)](https://github.com/robineco/rubackse/actions/workflows/ruby.yml)
+---
 **WORK IN PROGRESS**
 
 
