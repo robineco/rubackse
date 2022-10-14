@@ -11,13 +11,13 @@ This is a simple ruby service to schedule/manage automated backups. Backups can 
 
 | Fatures to implement  |
 |---|
-| <input type="checkbox" disabled /> File backup service  |
-| <input type="checkbox" disabled /> Notification service  |
-| <input type="checkbox" disabled /> Cloud upload service  |
-| <input type="checkbox" disabled /> Encryption service  |
-| <input type="checkbox" disabled /> Custom logger service  |
-| <input type="checkbox" disabled /> Docker image |
-| <input type="checkbox" disabled /> Sinatra endpoints |
+| ⬜ File backup service  |
+| ⬜ Notification service  |
+| ⬜ Cloud upload service  |
+| ⬜ Encryption service  |
+| ⬜ Custom logger service  |
+| ⬜ Docker image |
+| ⬜ Sinatra endpoints |
 
 
 ---
