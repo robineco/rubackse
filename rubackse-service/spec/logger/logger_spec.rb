@@ -59,4 +59,20 @@ describe Logger do
 
   end
 
+  describe "Log level" do
+
+    it "should change the log level" do
+      logger = Logger.new()
+      logger.debug!
+      expect(logger.debug?).to eq(true)
+      logger.info!
+      expect(logger.info?).to eq(true)
+      logger.warn!
+      expect(logger.warn?).to eq(true)
+      logger.error!
+      expect(logger.error?).to eq(true)
+    end
+
+  end
+
 end
