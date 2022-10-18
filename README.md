@@ -12,11 +12,12 @@ This is a simple ruby service to schedule/manage automated backups. Backups can 
 
 | Fatures to implement  |
 |---|
+| ✅ Custom logger service  |
+| ✅ Command runner service  |
 | ⬜ File backup service  |
 | ⬜ Notification service  |
 | ⬜ Cloud upload service  |
 | ⬜ Encryption service  |
-| ⬜ Custom logger service  |
 | ⬜ Docker image |
 | ⬜ Sinatra endpoints |
 
