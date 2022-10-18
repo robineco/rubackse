@@ -39,12 +39,3 @@ class CommandRunner
   end
 
 end
-
-options = {
-  commands: ['whoami'],
-  before: ['echo "before"'],
-  after: ['echo "after"']
-}
-
-runner = CommandRunner.new(options: options)
-p runner.run
