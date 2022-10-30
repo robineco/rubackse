@@ -18,7 +18,6 @@ class Logger
 
   def log(severity, message)
     if @log_file
-      p "wrt"
       @log_file.write(format_message(severity, message))
     end
     if severity >= @level
