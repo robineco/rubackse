@@ -14,9 +14,9 @@ This is a simple ruby service to schedule/manage automated backups. Backups can 
 |---|
 | ✅ Custom logger service  |
 | ✅ Command runner service  |
-| ⬜ File backup service  |
+| ✅ File backup service  |
 | ⬜ Notification service  |
-| ⬜ Cloud upload service  |
+| ✅ Cloud upload service  |
 | ⬜ Encryption service  |
 | ⬜ Docker image |
 | ⬜ Sinatra endpoints |
